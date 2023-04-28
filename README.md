@@ -29,7 +29,7 @@ email dan password untuk login
 'level' => 1
 
 
-'name' => 'Kasir 1',
-'email' => 'kasir1@gmail.com',
+'name' => 'Kasir',
+'email' => 'kasir@gmail.com',
 'password' => bcrypt('123456'),
 'level' => 2
