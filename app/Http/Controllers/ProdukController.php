@@ -38,9 +38,6 @@ class ProdukController extends Controller
         ->addColumn('harga_jual', function ($produk) {
             return format_uang($produk->harga_jual);
         })
-        // ->addColumn('stok', function ($produk) {
-        //     return format_uang($produk->stok);
-        // })
         ->addColumn('aksi', function ($produk) {
             return '
             <div class="btn-group">
