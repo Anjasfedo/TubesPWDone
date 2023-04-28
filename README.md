@@ -23,15 +23,20 @@
 7. Menjalankan sistem
    'php artisan serve'
 
-
 email dan password untuk login
 'name' => 'Administrator',
 'email' => 'admin@gmail.com',
 'password' => bcrypt('123456'),
 'level' => 1
 
-
 'name' => 'Kasir',
 'email' => 'kasir@gmail.com',
 'password' => bcrypt('123456'),
 'level' => 2
+
+Template Yang Digunakan:
+Tampilan menggunakan "AdminLTE 2" dan "Bootstrap 3"
+Icon menggunakan "Font Awsome 4"
+Login menggunakan "jetstream"
+Datatables menggunakan "yajrabox"
+PDF menggunakan "barryvdh DomPdf"
