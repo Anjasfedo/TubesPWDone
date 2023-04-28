@@ -1,5 +1,7 @@
 1. Jalankan perintah 
-composer update composer install
+   'composer update'
+   dan
+   'composer install'
 
 2. Copy file .env dari .env.example cp .env.example .env
 
@@ -10,16 +12,16 @@ composer update composer install
    DB_DATABASE=(ubah menjadi nama database) 
 
 4. Generate key 
-   php artisan key:generate
+   'php artisan key:generate'
 
 5. Migrate database 
-   php artisan migrate
+   'php artisan migrate'
 
 6. Seeder database
-   php artisan db:seed
+   'php artisan db:seed'
 
 7. Menjalankan sistem
-   php artisan serve
+   'php artisan serve'
 
 
 email dan password untuk login
